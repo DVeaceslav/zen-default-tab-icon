@@ -1,20 +1,20 @@
 # Tab Loading Icon
 
-Replaces the empty tab icon while a page is loading with a smooth Material-style spinner.
+Replaces the empty tab icon with a simple browser icon.
 
-While a page is loading and has no favicon yet, [Zen Browser](https://zen-browser.app/) shows a blank placeholder in the tab. This mod swaps it for an animated spinner whose arc grows, shrinks and rotates, like the circular progress indicator in Material Design.
-
----
-
-Thumbnail
-
-![image](image.png)
+When a page has no favicon, [Zen Browser](https://zen-browser.app/) shows a blank placeholder in the tab. This mod replaces it with a clean browser icon, so tabs without a favicon are easy to recognize. The icon follows your theme colors automatically.
 
 ---
 
-## Settings
+Before
 
-- **Spinner color**: *Light* (default, for dark themes) or *Dark* (for light themes).
+![before](images/before.png)
+
+After
+
+![after](images/after.png)
+
+---
 
 ## Installation
 
@@ -22,7 +22,7 @@ Thumbnail
 
 1. Open Zen settings → **Zen Mods**.
 2. Find **Tab Loading Icon** and click **Install**.
-3. Restart Zen if the spinner doesn't appear right away.
+3. Restart Zen if the icon doesn't appear right away.
 
 ### Manual
 
@@ -36,12 +36,7 @@ If nothing changes, clear the startup cache: `about:support` → **Clear startup
 
 ## Customization
 
-Everything is inside [`chrome.css`](chrome.css):
-
-- **Speed**: change `1.4s` (it appears twice in each SVG; keep both values equal).
-- **Thickness**: change `stroke-width='6'`.
-- **Size**: change `width` and `height` (default `16px`).
-- **Custom color**: change `stroke='%23e3e3e3'`. `%23` stands for `#`, so `%23ff8800` means `#ff8800`.
+The icon is the built-in `chrome://global/skin/icons/defaultFavicon.svg`. To use another one, replace that URL in [`chrome.css`](chrome.css).
 
 ## Changelog
 
