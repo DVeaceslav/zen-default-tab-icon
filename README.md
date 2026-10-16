@@ -6,13 +6,7 @@ When a page has no favicon, [Zen Browser](https://zen-browser.app/) shows a blan
 
 ---
 
-Before
-
-![before](images/before.png)
-
-After
-
-![after](images/after.png)
+![image](image.png)
 
 ---
 
