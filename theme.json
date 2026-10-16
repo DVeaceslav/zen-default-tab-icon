@@ -1,0 +1,11 @@
+{
+    "id": "821d161a-b0b3-4383-b7d7-fe100c916377",
+    "name": "Tab Loading Icon",
+    "description": "Replaces the empty tab icon while a page is loading with a smooth Material-style spinner.",
+    "homepage": "",
+    "author": "Veaceslav Darii",
+    "version": "1.0.0",
+    "tags": [],
+    "createdAt": "2026-10-16",
+    "updatedAt": "2026-10-16"
+}
