@@ -1,4 +1,4 @@
-/* Tab Loading Icon: browser icon for tabs without a favicon */
+/* Default Tab Icon: browser icon for tabs without a favicon */
 
 #tabbrowser-tabs .tabbrowser-tab .tab-icon-image {
   &:not([src]), &:-moz-broken {

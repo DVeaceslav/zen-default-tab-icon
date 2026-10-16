@@ -1,4 +1,4 @@
-# Tab Loading Icon
+# Default Tab Icon
 
 Replaces the empty tab icon with a simple browser icon.
 
@@ -21,7 +21,7 @@ After
 ### Zen Mods (recommended)
 
 1. Open Zen settings → **Zen Mods**.
-2. Find **Tab Loading Icon** and click **Install**.
+2. Find **Default Tab Icon** and click **Install**.
 3. Restart Zen if the icon doesn't appear right away.
 
 ### Manual
